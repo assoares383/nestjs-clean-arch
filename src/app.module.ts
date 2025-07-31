@@ -4,8 +4,8 @@ import { AppService } from './app.service'
 import { EnvConfigModule } from './shared/infra/env-config/env-config.module'
 
 @Module({
-  controllers: [AppController],
-  providers: [AppService],
   imports: [EnvConfigModule],
+  providers: [AppService],
+  controllers: [AppController],
 })
 export class AppModule {}
