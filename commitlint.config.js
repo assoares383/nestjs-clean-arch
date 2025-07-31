@@ -22,3 +22,4 @@ module.exports = {
   },
 }
 // Exemplo de alteração para commitlint
+// Comentário de teste para commitlint
